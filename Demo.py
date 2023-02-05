@@ -30,6 +30,11 @@ def check_100(array): # returns the array
             del array[i]
     return array
 
+# with my_mic as source: # can be developed to get the user to record the child reading the sentence out loud and AI would be used to compare rate how well it was read as a decimal between 0 and 1
+#    print("Read the sentence out loud.")
+#    r.adjust_for_ambient_noise(source)
+#    audio = r.listen(source)
+
 year_group = int(input("Enter your year group. > "))
 
 if year_group == 2: # This application could be developed to find a year 2 text from a file of year 2 texts 
